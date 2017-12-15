@@ -1,0 +1,16 @@
+{{question-qpage question=model.question}}
+<div class="row">
+	<p><b>There are {{model.answers.length}} answers to this question</b></p>
+</div>
+{{answer-home answers=model.answers upVotesClicked='addUpVotes' downVotesClicked= 'addDownVotes'}}
+<div class="divider"></div>
+<form {{action 'submitAnswer' on="submit"}}>
+	<div class="input-field col s12">
+    	{{textarea id="place1" type="text" class="materialize-textarea" required=true value=model.newAnswer.answer}}
+    	<label for="place1">Can you answer the question?</label>
+	</div>
+ 	<button type="submit" class="btn-large waves-effect waves-light red">Submit</button>
+</form>
+
+{{outlet}}
+

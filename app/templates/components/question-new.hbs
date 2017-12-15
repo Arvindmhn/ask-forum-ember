@@ -1,0 +1,11 @@
+<form>
+	<div class="input-field col s12">
+		{{input id="email1" type="email" class="form-control" value=model.asked_by}}
+		<label for="email1">Give us your name</label>
+	</div>
+	<div class="input-field col s12">
+    	{{input id="place1" type="text" class="form-control" value=model.question }}
+    	<label for="place1">Whats the question?</label>
+	</div>
+ 	<button {{action 'submitQuestion'}} type="submit" class="btn-large waves-effect waves-light red">Submit</button>
+</form>

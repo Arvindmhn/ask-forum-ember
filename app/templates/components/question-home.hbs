@@ -1,0 +1,12 @@
+{{#each question as |question|}}
+{{#link-to 'questions.answers' question.id class="q-home"}}
+	<div id="question-div" class="row">
+		<div class="card-panel white z-depth-1">
+			<h6 class="question-home">{{question.question}}</h6>
+			<p class="minute-details">Asked by : {{question.asked_by}}</p>
+			<p class="minute-details">{{question.created_at}}</p>
+		</div>
+	</div>
+{{/link-to}}
+{{/each}}
+

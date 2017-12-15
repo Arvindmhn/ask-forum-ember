@@ -1,0 +1,7 @@
+<form>
+	<div class="input-field col s12">
+    	{{textarea id="place1" type="text" class="materialize-textarea" value=model.answer}}
+    	<label for="place1">Can you answer the question?</label>
+	</div>
+ 	<button {{action 'submitAnswer'}} type="submit" class="btn-large waves-effect waves-light red">Submit</button>
+</form>

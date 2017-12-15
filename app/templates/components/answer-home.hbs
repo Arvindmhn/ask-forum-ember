@@ -1,0 +1,30 @@
+<div class="row">
+	<table class="striped">
+		<tbody>
+			{{#each answers as |answer|}}
+				<tr>					
+					{{#if answer.editor}}
+						<div class="chip right" style="cursor:pointer;" onclick={{action 'isEdit' answer}}>Take me back<a><i class="material-icons">arrow_back</i></a></div>
+						<form {{action 'submitAnswer' answer on="submit"}}>
+							<div class="input-field col s12">
+						    	{{textarea id=(concat "edit-answer" answer.id) type="text" class="materialize-textarea edit" value=answer.answer}}
+							</div>
+							<button type="submit" class="btn waves-effect waves-light grey">Done editing!</button>
+						</form>
+					{{else}}
+						<div class="chip right" style="cursor:pointer;" onclick={{action 'isEdit' answer}}>edit<a><i class="material-icons">create</i></a></div>
+						<h6>{{answer.answer}}</h6>
+						<p></p>
+						<div class="chip" style="cursor: pointer;" onclick={{action 'addUp' answer.id}}>
+						    <label>Upvotes : </label>{{answer.upvotes}}
+						</div>	
+						<div class="chip" style="cursor: pointer;" onclick={{action 'addDown' answer.id}}>
+							<label>Downvotes : </label>{{answer.downvotes}}
+						</div>	
+						<p></p>
+					{{/if}}
+				</tr>
+			{{/each}}
+		</tbody>
+	</table>
+</div>

@@ -1,0 +1,6 @@
+define("ember-cli-materialize/templates/components/md-navbar", ["exports"], function (exports) {
+  "use strict";
+
+  exports.__esModule = true;
+  exports.default = Ember.HTMLBars.template({ "id": "8+nL1Hb+", "block": "{\"symbols\":[\"&default\"],\"statements\":[[6,\"div\"],[9,\"class\",\"nav-wrapper\"],[7],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"container\"],[7],[0,\"\\n    \"],[4,\"link-to\",[[20,[\"homeRoute\"]]],[[\"class\"],[\"brand-logo\"]],{\"statements\":[[1,[18,\"name\"],false]],\"parameters\":[]},null],[0,\"\\n    \"],[6,\"ul\"],[9,\"class\",\"right hide-on-med-and-down\"],[7],[0,\"\\n      \"],[11,1],[0,\"\\n    \"],[8],[0,\"\\n  \"],[8],[0,\"\\n\\n  \"],[6,\"a\"],[9,\"class\",\"button-collapse\"],[10,\"data-activates\",[26,[[18,\"_sideNavId\"]]]],[7],[0,\"\\n    \"],[6,\"i\"],[9,\"class\",\"material-icons\"],[7],[0,\"menu\"],[8],[0,\"\\n  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\\n\"],[6,\"ul\"],[10,\"id\",[26,[[18,\"_sideNavId\"]]]],[9,\"class\",\"side-nav\"],[7],[0,\"\\n  \"],[11,1],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "ember-cli-materialize/templates/components/md-navbar.hbs" } });
+});

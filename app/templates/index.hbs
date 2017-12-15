@@ -1,0 +1,11 @@
+<div class="col s4">
+	{{intro-home image="https://orig00.deviantart.net/7636/f/2014/096/d/f/question_of_time___conceptual_logo_1_by_playground011-d7d9ojr.jpg" heading="Find questions here" description="Interesting, offbeat, just what you wanted. You can find all these here"}}
+	<center>{{#link-to 'questions.new'}}<a class="waves-effect cyan darken-4 btn">Have a question to ask?</a>{{/link-to}}</center>
+</div>
+<div class="col s7 offset-s1">
+	<div class = "row">
+		<h5 class="left">Recent questions - {{model.length}} questions asked</h5>
+	</div>
+	{{question-home question=model}}
+	{{outlet}}
+</div>

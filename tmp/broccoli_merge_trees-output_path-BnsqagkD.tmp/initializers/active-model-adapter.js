@@ -1,0 +1,1 @@
+/Users/arvindm/forum/tmp/broccoli_merge_trees-input_base_path-FtNL5w8E.tmp/1/initializers/active-model-adapter.js

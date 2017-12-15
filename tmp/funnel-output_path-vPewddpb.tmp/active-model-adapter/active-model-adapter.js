@@ -1,0 +1,1 @@
+/Users/arvindm/forum/tmp/funnel-input_base_path-twG7fxGK.tmp/active-model-adapter.js

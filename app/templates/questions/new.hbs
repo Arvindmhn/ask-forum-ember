@@ -1,0 +1,16 @@
+<div class="col s4">
+	{{intro-home image="https://cdn.dribbble.com/users/1117273/screenshots/3787264/chicken_leg_bulb_idea-01.png" heading="Ask your questions here" description="Be clear in the way you frame questions. This will make getting answers easier"}}
+</div>
+<div class="col s7 offset-s1">
+	<form  {{action 'submitQuestion' on="submit"}}>
+		<div class="input-field col s12">
+			{{input id="askedBy" type="text" class="form-control" required=true value=model.asked_by}}
+			<label for="askedBy">Give us your name</label>
+		</div>
+		<div class="input-field col s12">
+	    	{{input id="question" type="text" class="form-control" required=true value=model.question }}
+	    	<label for="question">Whats the question?</label>
+		</div>
+	 	<button type="submit" class="btn-large waves-effect waves-light red">Submit</button>
+	</form>
+</div>

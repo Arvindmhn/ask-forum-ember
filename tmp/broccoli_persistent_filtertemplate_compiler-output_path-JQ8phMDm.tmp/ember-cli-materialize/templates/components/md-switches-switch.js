@@ -1,0 +1,1 @@
+export default Ember.HTMLBars.template({"id":"jDaL+aOo","block":"{\"symbols\":[\"&default\"],\"statements\":[[11,1],[0,\"\\n\"]],\"hasEval\":false}","meta":{"moduleName":"ember-cli-materialize/templates/components/md-switches-switch.hbs"}});

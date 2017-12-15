@@ -1,0 +1,6 @@
+define("ember-cli-materialize/templates/components/md-loader", ["exports"], function (exports) {
+  "use strict";
+
+  exports.__esModule = true;
+  exports.default = Ember.HTMLBars.template({ "id": "R+tOQ3yP", "block": "{\"symbols\":[\"spinnerClassName\"],\"statements\":[[4,\"if\",[[20,[\"isBarType\"]]],null,{\"statements\":[[0,\"  \"],[6,\"div\"],[10,\"class\",[26,[[18,\"barClassName\"]]]],[10,\"style\",[18,\"barStyle\"],null],[7],[8],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"\\n\"],[4,\"each\",[[20,[\"spinnerClassNames\"]]],null,{\"statements\":[[0,\"  \"],[6,\"div\"],[10,\"class\",[26,[[19,1,[]]]]],[7],[0,\"\\n    \"],[6,\"div\"],[9,\"class\",\"circle-clipper left\"],[7],[0,\"\\n      \"],[6,\"div\"],[9,\"class\",\"circle\"],[7],[8],[0,\"\\n    \"],[8],[6,\"div\"],[9,\"class\",\"gap-patch\"],[7],[0,\"\\n      \"],[6,\"div\"],[9,\"class\",\"circle\"],[7],[8],[0,\"\\n    \"],[8],[6,\"div\"],[9,\"class\",\"circle-clipper right\"],[7],[0,\"\\n      \"],[6,\"div\"],[9,\"class\",\"circle\"],[7],[8],[0,\"\\n    \"],[8],[0,\"\\n  \"],[8],[0,\"\\n\"]],\"parameters\":[1]},null]],\"hasEval\":false}", "meta": { "moduleName": "ember-cli-materialize/templates/components/md-loader.hbs" } });
+});
